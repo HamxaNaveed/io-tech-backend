@@ -1,0 +1,18 @@
+{
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": { "type": "string" },
+    "logo": { "type": "media" },
+    "testimonial_en": { "type": "richtext" },
+    "testimonial_ar": { "type": "richtext" },
+    "case_study_link": { "type": "string" }
+  }
+}

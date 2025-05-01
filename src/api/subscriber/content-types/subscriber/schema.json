@@ -1,0 +1,15 @@
+{
+  "collectionName": "subscribers",
+  "info": {
+    "singularName": "subscriber",
+    "pluralName": "subscribers",
+    "displayName": "Subscriber"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": { "type": "email", "unique": true, "required": true },
+    "subscribed_at": { "type": "datetime" }
+  }
+}

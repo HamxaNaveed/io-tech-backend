@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_hero_slides",
+  "info": {
+    "displayName": "Hero Slide",
+    "icon": "image"
+  },
+  "attributes": {
+    "title_en": { "type": "string" },
+    "description_en": { "type": "text" },
+    "image": { "type": "media" },
+    "media_type": {
+      "type": "enumeration",
+      "enum": ["image", "video"]
+    },
+    "video_url": { "type": "text" }
+  }
+}
